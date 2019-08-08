@@ -8,11 +8,17 @@
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sitemap": "^2.2.3",
+    "i18next": "^17.0.6",
+    "i18next-browser-languagedetector": "^3.0.1",
+    "i18next-xhr-backend": "^3.0.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-i18next": "^10.11.4"
   },
   "keywords": [
     "gatsby"
@@ -21,6 +27,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
