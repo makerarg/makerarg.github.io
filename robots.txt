@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.techomax.com.ar/sitemap.xml
+Host: https://www.techomax.com.ar
